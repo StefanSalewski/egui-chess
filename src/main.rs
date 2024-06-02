@@ -125,7 +125,7 @@ impl eframe::App for MyApp {
                     self.players[1] = BOOL_TO_ENGINE[self.engine_plays_black as usize];
                     self.state = BOOL_TO_STATE[self.players[next] as usize];
                 }
-                ui.image(egui::include_image!("/home/salewski/chess/ferris.png"));
+                ui.image(egui::include_image!("ferris.png"));
             });
 
         egui::CentralPanel::default().show(ctx, |ui| {
