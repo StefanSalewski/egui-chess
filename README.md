@@ -2,7 +2,7 @@
 
 Rust version of salewski-chess, now with a plain egui user interface.
 
-![Alt text](http://ssalewski.de/tmp/salewski_chess.png)
+![Alt text](http://ssalewski.de/tmp/egui_chess.png)
 
 The Rust source code of the engine avoids the use of global variables and has some bug fixes and
 improvements compared to the initial Nim version.
